@@ -9,7 +9,7 @@ services:
       - 50000:50000
     container_name: jenkins-lts
     volumes:
-      - "/home/pich/Desktop/I4:/var/jenkins_home"
+      - "/home/pich/Desktop/Week/I4:/var/jenkins_home"
     # links:
     #   - "db:database"
   # db:
