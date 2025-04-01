@@ -9,9 +9,9 @@ services:
       - 50000:50000
     container_name: jenkins-lts
     volumes:
-      - "/home/pich/Desktop/Week/I4:/var/jenkins_home"
+      - "/home/pich/Desktop/Week01/Janken:/var/jenkins_home"
     # links:
-    #   - "db:database"
+    #   - "db:database"s
   # db:
   #   image: mysql:latest
   #   user: root
